@@ -1,0 +1,557 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.row div:nth-of-type(4){
+
+ 
+  border-right:none  !important; 
+}
+/* 避免 类名冲突问题 */
+#topHeight{
+  border-bottom: 1px solid #ccc;
+  line-height: 40px;
+  font-size: 12px;
+  
+}
+#topHeight .myDiv > img{
+    display: none;
+    position: relative;
+    top: 1px;
+    left: 24px;
+}
+
+#topHeight .myDiv:hover img{
+  display: block;
+}
+#topHeight .topHeight{
+  height: 40px;
+   border-right:1px solid #ccc; 
+/*  border-left:1px solid #ccc ; */
+  
+}
+
+#topHeight .topBorder{
+  border-bottom: 1px solid #cccc;
+}
+/* nav部分 */
+#secondTop{
+  font-size: 14px;
+}
+#secondTop a{
+  color:#000000;
+  height: 70px;
+  line-height: 35px;
+  
+}
+
+#secondTop .navbar-header>button{
+    background: #ccc;
+    margin-top: 30px;
+}
+#secondTop .navbar-header .icon-bar{
+  background: #ffffff;
+}
+
+#secondTop .active{
+  border-bottom: 4px solid red;
+}
+#secondTop li:hover{
+  border-bottom: 4px solid red;
+}
+#secondTop .nav > li > a:hover{
+  background: none;
+}
+
+/* 轮播图 */
+
+
+ #loopThird .carousel-inner div>img{
+  height: 410px;
+  background-size: 100% 100%;
+
+} 
+/* 
+#loopThird .carousel-inner div:nth-of-type(1){
+  
+  background-image: url(../img/slide_01_2000x410.jpg);
+}
+#loopThird .carousel-inner div:nth-of-type(2){
+  
+  background-image: url(../img/slide_02_2000x410.jpg);
+}
+#loopThird .carousel-inner div:nth-of-type(3){
+  
+  background-image: url(../img/slide_03_2000x410.jpg);
+} */
+
+
+/* 网格布局 */
+
+.icon-uniE907:before {
+  content: "\e907";
+}
+
+.icon-uniE903:before {
+  content: "\e903";
+}
+#gradFour .media{
+  padding: 10px 0;
+}
+
+#gradFour .media  i{
+  padding-top: 4px;
+  font-size: 26px;
+}
+
+#gradFour .media .media-left{
+  vertical-align: middle;
+}
+#gradFour .container>div{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icon-uniE906:before {
+  content: "\e906";
+}
+
+.icon-uniE905:before {
+  content: "\e905";
+}
+
+#gradFour .text i{
+  font-size: 16px;
+}
+
+
+#gradFour .text{
+  font-size: 14px;
+  
+}
+
+ 
+
+/* 任务卡tab */
+/* 背景样色 */
+#tabFive{
+  background: #ccc;
+}
+
+/* 选项卡年利率样式 */
+#tabFive .panel-heading{
+  width: 100px;
+  height: 167px;
+  background: #e9232c;
+  float: right;
+  color: #fff;
+ 
+  /* 加阴影 */
+  box-shadow: 5px 5px 5px rgba(53, 18, 18, 0.623);
+}
+
+
+#tabFive .panel-body{
+ margin-right: 100px;
+  background: #e9232c;
+  padding: 0 10px;
+ 
+}
+
+#tabFive .panel-body .row {
+  font-size: 12px;
+}
+#tabFive .panel-body .row p{
+
+  margin: 0;
+  padding: 0;
+
+}
+#tabFive .panel-body h5{
+  color:#fff;
+  
+}
+
+#tabFive .panel-body p{
+  
+  color:#6e5f5f;
+}
+/* 年利率样式 */
+#tabFive .panel-heading span{
+  font-size: 35px;
+}
+#tabFive .panel-heading sub{
+  font-size: 17px;
+}
+#tabFive .panel-heading {
+  padding: 0px;
+  margin: 0;
+}
+#tabFive .panel-heading {
+  padding-top: 25px;
+ 
+}
+#tabFive .panel-body .price{
+  color: #fff;
+}
+#tabFive .panel-body{
+  position: relative;
+  border-right: 1px dashed #ccc;
+}
+.circle{
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  position: absolute;   
+  right: -6px;
+  top: -5px;
+
+}
+.circle1{
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  position: absolute;   
+  right: -6px;
+  bottom: -5px;
+
+}
+
+
+.panel-margin{
+  /* margin: 1px;   */
+  margin: 4px 0;
+}
+/* 选项卡第一页第二个 */
+#tabFive .panel-color{
+  
+  background: #EAEAEA;
+}
+#tabFive .panel-color h5{
+  
+  color: #000000;
+}
+ #tabFive .panel-color  .price{
+  
+  color: #000000;
+} 
+#tabFive .panel-color span{
+  
+  color: red;
+
+}
+#tabFive .panel-color sub{
+  
+  color: red;
+}
+
+#tabFive .panel-heading .tooltips a:nth-of-type(1){
+  width: 20px;
+  height: 20px;
+  border: 1px solid red;
+  padding: 2px;
+ color: red;
+}
+#tabFive .panel-heading .tooltips a:nth-of-type(2){
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(59, 202, 46);
+  padding: 2px;
+  color: rgb(24, 121, 15);
+}
+
+/* 选项卡第一页第三个 */
+/*  背景色 */
+#tabFive .panel-ground{
+  background: rgb(157, 157, 158);
+}
+#tabFive .panel-ground h5{
+  color: #000000;
+}
+
+#tabFive .panel-ground span{
+  color: red;
+}
+#tabFive .panel-ground sub{
+  color: red;
+}
+#tabFive   .color-pan{
+  
+  color: #000000;
+} 
+#tabFive .panel-ground   .price{
+  
+  color: #000000;
+} 
+
+/* 轮播图标题添加滚动条 */
+#tabFive .ul-wrapper{
+  /* 横向出现滚动 */
+  overflow-x: scroll;
+} 
+#newsTab .news{
+  border-bottom: 1px dashed #cccccc;
+  position: relative;
+
+}
+#newsTab .news ::after{
+  content: "";
+  /* 转换为块元素 */
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #cccc;
+
+  position: absolute;
+  top: 85%;
+  left: 100%;
+}
+@media (max-width:992px){
+  #newsTab .nav-stacked >li {
+    float: left;
+  }
+}
+#newsTab{
+  border-bottom: 1px solid #cccc;
+  padding: 50px 10px;
+}
+
+#newsTab.nav-stacked> li a{
+  border-radius: 50%;
+}
+#newsTab .tab-pane >ul li{
+  line-height: 35px;
+}
+
+/* 底部 */
+#footer{
+  height: 100px;
+}
+
+#footer ul {
+ 
+  font-size: 0px;
+} 
+
+ #footer ul li{
+  
+  width: calc(90%/9);
+  display: inline-block;
+  padding-left: 20px; 
+  font-size: 60px; 
+  vertical-align: middle;
+} 
+
+ #footer ul li a{
+  text-decoration: none;
+}
+
+
+#footer ul >li +li{
+  border-left: 1px dashed #cccccc;
+  
+}  
+ 
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'weijinsuo';
+  src: url('../font/MiFie-Web-Font.eot');
+  src: url('../font/MiFie-Web-Font.eot') format('embedded-opentype'), url('../font/MiFie-Web-Font.svg') format('svg'), url('../font/MiFie-Web-Font.ttf') format('truetype'), url('../font/MiFie-Web-Font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'weijinsuo' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon {
+  color: #E9232C;
+  display: inline-block;
+  font-size: 50px;
+  line-height: 74px;
+  vertical-align: middle;
+}
+
+.icon-icon::before {
+  content: "\e920";
+}
+
+.icon-logo {
+  color: #434243;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.icon-logo::before {
+  content: "\e93e";
+}
+
+.icon-mobilephone:before {
+  content: "\e908";
+  font-size: 13px;
+}
+
+.icon-telephone:before {
+  content: "\e909";
+  font-size: 15px;
+}
+
+.icon-uniE900:before {
+  content: "\e900";
+}
+
+.icon-uniE901:before {
+  content: "\e901";
+}
+
+.icon-uniE902:before {
+  content: "\e902";
+}
+
+.icon-uniE903:before {
+  content: "\e903";
+}
+
+.icon-uniE904:before {
+  content: "\e904";
+}
+
+.icon-uniE905:before {
+  content: "\e905";
+}
+
+.icon-uniE906:before {
+  content: "\e906";
+}
+
+.icon-uniE907:before {
+  content: "\e907";
+}
+
+.icon-news01:before {
+  content: "\e90e";
+  font-size: 28px;
+  color: #EAEAEA;
+}
+
+.icon-news02:before {
+  content: "\e90f";
+  font-size: 28px;
+  color: #EAEAEA;
+}
+
+.icon-news03:before {
+  content: "\e910";
+  font-size: 28px;
+  color: #EAEAEA;
+}
+
+.icon-news04:before {
+  content: "\e911";
+  font-size: 28px;
+  color: #EAEAEA;
+}
+
+
+/* 底部图标  */
+.icon-uniE930:hover {
+  color: yellow;
+}
+
+.icon-uniE930:before {
+  content: "\e946";
+}
+
+.icon-uniE92F:hover {
+  color: #e8380d;
+}
+
+.icon-uniE92F:before {
+  content: "\e92f";
+}
+
+.icon-uniE92E:hover {
+  color: #ed6f00;
+}
+
+.icon-uniE92E:before {
+  content: "\e92e";
+}
+
+.icon-uniE92A:hover {
+  color: #159f69;
+}
+
+.icon-uniE92A:before {
+  content: "\e92a";
+}
+
+.icon-uniE929:hover {
+  color: #07569e;
+}
+
+.icon-uniE929:before {
+  content: "\e929";
+}
+
+.icon-uniE931:hover {
+  color: #004098;
+}
+
+.icon-uniE931:before {
+  content: "\e931";
+}
+
+.icon-uniE92C:hover {
+  color: #d32019;
+}
+
+.icon-uniE92C:before {
+  content: "\e92c";
+}
+
+.icon-uniE92B:hover {
+  color: #3eac4a;
+}
+
+.icon-uniE92B:before {
+  content: "\e92b";
+}
+
+.icon-uniE92D:hover {
+  color: #2bb289;
+}
+
+.icon-uniE92D:before {
+  content: "\e92d";
+}
+
+
+/* 已满标图标 */
+.panel-product.state-3::after {
+  content: "\e927";
+
+}
